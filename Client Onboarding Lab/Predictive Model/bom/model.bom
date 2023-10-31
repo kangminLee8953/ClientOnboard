@@ -1,0 +1,55 @@
+
+package user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel;
+
+
+class Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonPropertyOrder "{clientAnnualRevenue,clientExistenceDuration,clientIndustry,clientEmployeeNumber}"
+        #de.generated
+{
+    java.lang.Integer clientannualrevenue
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientAnnualRevenue";
+    java.lang.Integer clientemployeenumber
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientEmployeeNumber";
+    java.lang.Integer clientexistenceduration
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientExistenceDuration";
+    java.lang.Integer clientindustry
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "clientIndustry";
+    Input(java.lang.Integer clientannualrevenue, java.lang.Integer clientexistenceduration, java.lang.Integer clientindustry, java.lang.Integer clientemployeenumber)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Input()
+                #dataio.default;
+}
+
+class Output
+        property ads.typeId "2"
+        #de.generated
+{
+    java.lang.Double confidence
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "confidence";
+    string predictedClientdefaultedpayment
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "predicted_clientDefaultedPayment";
+    int rank
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "rank";
+    java.lang.Double weight
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "weight";
+    Output(string predictedClientdefaultedpayment, java.lang.Double confidence, java.lang.Double weight, int rank)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Output()
+                #dataio.default;
+}
+

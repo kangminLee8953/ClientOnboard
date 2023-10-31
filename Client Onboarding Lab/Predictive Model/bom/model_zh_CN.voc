@@ -1,0 +1,38 @@
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input#concept.label = ML 模型输入
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)#phrase.navigation = 新建 {ML 模型输入}符合条件：{0, clientannualrevenue} {1, clientexistenceduration} {2, clientindustry} {3, clientemployeenumber} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.action = 设置{this}的当前 clientannualrevenue为{clientannualrevenue}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.addition_setter = 加{clientannualrevenue}到{this}的属性当前 clientannualrevenue里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.navigation = {this} 的{clientannualrevenue}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.subtraction_setter = 减{clientannualrevenue}到{this}的属性当前 clientannualrevenue里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.action = 设置{this}的当前 clientemployeenumber为{clientemployeenumber}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.addition_setter = 加{clientemployeenumber}到{this}的属性当前 clientemployeenumber里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.navigation = {this} 的{clientemployeenumber}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.subtraction_setter = 减{clientemployeenumber}到{this}的属性当前 clientemployeenumber里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.action = 设置{this}的当前 clientexistenceduration为{clientexistenceduration}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.addition_setter = 加{clientexistenceduration}到{this}的属性当前 clientexistenceduration里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.navigation = {this} 的{clientexistenceduration}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.subtraction_setter = 减{clientexistenceduration}到{this}的属性当前 clientexistenceduration里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.action = 设置{this}的当前 clientindustry为{clientindustry}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.addition_setter = 加{clientindustry}到{this}的属性当前 clientindustry里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.navigation = {this} 的{clientindustry}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.subtraction_setter = 减{clientindustry}到{this}的属性当前 clientindustry里
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output#concept.label = ML 模型输出
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = 新建 {ML 模型输出}符合条件：{0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.action = 设置{this}的当前 confidence为{confidence}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.addition_setter = 加{confidence}到{this}的属性当前 confidence里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.navigation = {this} 的{confidence}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.subtraction_setter = 减{confidence}到{this}的属性当前 confidence里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.action = 设置{this}的当前 predicted clientdefaultedpayment为{predicted clientdefaultedpayment}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.navigation = {this} 的{predicted clientdefaultedpayment}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.action = 设置{this}的当前 rank为{rank}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.addition_setter = 加{rank}到{this}的属性当前 rank里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.navigation = {this} 的{rank}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.subtraction_setter = 减{rank}到{this}的属性当前 rank里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.action = 设置{this}的当前 weight为{weight}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.addition_setter = 加{weight}到{this}的属性当前 weight里
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.navigation = {this} 的{weight}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.subtraction_setter = 减{weight}到{this}的属性当前 weight里

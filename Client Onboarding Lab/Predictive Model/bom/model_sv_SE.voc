@@ -1,0 +1,38 @@
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input#concept.label = ML model input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)#phrase.navigation = ett nytt {ML model input} där {0, clientannualrevenue} {1, clientexistenceduration} {2, clientindustry} {3, clientemployeenumber} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.action = sätt clientannualrevenuen för {this} till {clientannualrevenue}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.addition_setter = addera {clientannualrevenue} till clientannualrevenuen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.subtraction_setter = subtrahera {clientannualrevenue} från clientannualrevenuen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.action = sätt clientemployeenumbern för {this} till {clientemployeenumber}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.addition_setter = addera {clientemployeenumber} till clientemployeenumbern för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.subtraction_setter = subtrahera {clientemployeenumber} från clientemployeenumbern för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.action = sätt clientexistencedurationen för {this} till {clientexistenceduration}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.addition_setter = addera {clientexistenceduration} till clientexistencedurationen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.subtraction_setter = subtrahera {clientexistenceduration} från clientexistencedurationen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.action = sätt clientindustryen för {this} till {clientindustry}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.addition_setter = addera {clientindustry} till clientindustryen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.navigation = {clientindustry} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.subtraction_setter = subtrahera {clientindustry} från clientindustryen för {this}
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output#concept.label = ML model output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = ett nytt {ML model output} där {0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.action = sätt confidencen för {this} till {confidence}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.addition_setter = addera {confidence} till confidencen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.navigation = {confidence} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.subtraction_setter = subtrahera {confidence} från confidencen för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.action = sätt predicted clientdefaultedpaymenten för {this} till {predicted clientdefaultedpayment}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.navigation = {predicted clientdefaultedpayment} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.action = sätt ranken för {this} till {rank}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.addition_setter = addera {rank} till ranken för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.navigation = {rank} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.subtraction_setter = subtrahera {rank} från ranken för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.action = sätt weighten för {this} till {weight}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.addition_setter = addera {weight} till weighten för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.navigation = {weight} för {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.subtraction_setter = subtrahera {weight} från weighten för {this}

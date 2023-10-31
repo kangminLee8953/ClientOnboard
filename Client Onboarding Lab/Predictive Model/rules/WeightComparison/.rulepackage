@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>WeightComparison</name>
+  <uuid>68265f0c-9bb7-4fe7-af86-dfe0b7960724</uuid>
+</ilog.rules.studio.model.base:RulePackage>

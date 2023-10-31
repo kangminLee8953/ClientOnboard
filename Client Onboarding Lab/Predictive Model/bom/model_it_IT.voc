@@ -1,0 +1,38 @@
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input#concept.label = Input modello ML
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)#phrase.navigation = un nuovo {Input modello ML} dove {0, clientannualrevenue} {1, clientexistenceduration} {2, clientindustry} {3, clientemployeenumber} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.action = cambia il clientannualrevenue {this,PARTITIVE_ARTICLE} a {clientannualrevenue}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.addition_setter = aggiungere {clientannualrevenue} a il clientannualrevenue {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.subtraction_setter = sottrarre {clientannualrevenue} da il clientannualrevenue {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.action = cambia il clientemployeenumber {this,PARTITIVE_ARTICLE} a {clientemployeenumber}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.addition_setter = aggiungere {clientemployeenumber} a il clientemployeenumber {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.subtraction_setter = sottrarre {clientemployeenumber} da il clientemployeenumber {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.action = cambia il clientexistenceduration {this,PARTITIVE_ARTICLE} a {clientexistenceduration}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.addition_setter = aggiungere {clientexistenceduration} a il clientexistenceduration {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.subtraction_setter = sottrarre {clientexistenceduration} da il clientexistenceduration {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.action = cambia il clientindustry {this,PARTITIVE_ARTICLE} a {clientindustry}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.addition_setter = aggiungere {clientindustry} a il clientindustry {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.navigation = {clientindustry} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.subtraction_setter = sottrarre {clientindustry} da il clientindustry {this,PARTITIVE_ARTICLE}
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output#concept.label = Output del modello ML
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = un nuovo {Output del modello ML} dove {0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.action = cambia la confidence {this,PARTITIVE_ARTICLE} a {confidence}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.addition_setter = aggiungere {confidence} a la confidence {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.navigation = {confidence} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.subtraction_setter = sottrarre {confidence} da la confidence {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.action = cambia il predicted clientdefaultedpayment {this,PARTITIVE_ARTICLE} a {predicted clientdefaultedpayment}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.navigation = {predicted clientdefaultedpayment} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.action = cambia il rank {this,PARTITIVE_ARTICLE} a {rank}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.addition_setter = aggiungere {rank} a il rank {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.navigation = {rank} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.subtraction_setter = sottrarre {rank} da il rank {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.action = cambia il weight {this,PARTITIVE_ARTICLE} a {weight}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.addition_setter = aggiungere {weight} a il weight {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.navigation = {weight} {this,PARTITIVE_ARTICLE}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.subtraction_setter = sottrarre {weight} da il weight {this,PARTITIVE_ARTICLE}

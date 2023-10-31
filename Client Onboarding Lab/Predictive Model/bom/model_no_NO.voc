@@ -1,0 +1,38 @@
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input#concept.label = ML model input
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.Input(java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)#phrase.navigation = et nytt {ML model input} hvor {0, clientannualrevenue} {1, clientexistenceduration} {2, clientindustry} {3, clientemployeenumber} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.action = sett clientannualrevenuen på {this} til {clientannualrevenue}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.addition_setter = legg {clientannualrevenue} til clientannualrevenuen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientannualrevenue#phrase.subtraction_setter = trekk {clientannualrevenue} fra clientannualrevenuen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.action = sett clientemployeenumberen på {this} til {clientemployeenumber}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.addition_setter = legg {clientemployeenumber} til clientemployeenumberen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientemployeenumber#phrase.subtraction_setter = trekk {clientemployeenumber} fra clientemployeenumberen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.action = sett clientexistencedurationen på {this} til {clientexistenceduration}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.addition_setter = legg {clientexistenceduration} til clientexistencedurationen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientexistenceduration#phrase.subtraction_setter = trekk {clientexistenceduration} fra clientexistencedurationen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.action = sett clientindustryen på {this} til {clientindustry}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.addition_setter = legg {clientindustry} til clientindustryen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.navigation = {clientindustry} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Input.clientindustry#phrase.subtraction_setter = trekk {clientindustry} fra clientindustryen på {this}
+
+# user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output#concept.label = ML model output
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.Output(java.lang.String,java.lang.Double,java.lang.Double,int)#phrase.navigation = et nytt {ML model output} hvor {0, predicted clientdefaultedpayment} {1, confidence} {2, weight} {3, rank} 
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.action = sett confidencen på {this} til {confidence}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.addition_setter = legg {confidence} til confidencen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.navigation = {confidence} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.confidence#phrase.subtraction_setter = trekk {confidence} fra confidencen på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.action = sett predicted clientdefaultedpaymenten på {this} til {predicted clientdefaultedpayment}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.predictedClientdefaultedpayment#phrase.navigation = {predicted clientdefaultedpayment} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.action = sett ranken på {this} til {rank}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.addition_setter = legg {rank} til ranken på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.navigation = {rank} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.rank#phrase.subtraction_setter = trekk {rank} fra ranken på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.action = sett weighten på {this} til {weight}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.addition_setter = legg {weight} til weighten på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.navigation = {weight} på {this}
+user3.user3_client_onboarding_decisions.client_onboarding_lab.predictivemodel.Output.weight#phrase.subtraction_setter = trekk {weight} fra weighten på {this}
